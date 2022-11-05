@@ -33,7 +33,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://restful-booker.herokuapp.com/booking/",
+					"raw": "https://restful-booker.herokuapp.com/booking/3155",
 					"protocol": "https",
 					"host": [
 						"restful-booker",
@@ -42,7 +42,7 @@
 					],
 					"path": [
 						"booking",
-						""
+						"3155"
 					]
 				}
 			},
@@ -60,7 +60,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+					"raw": "{\n    \"firstname\" : \"Leon\",\n    \"lastname\" : \"Erik\",\n    \"totalprice\" : 25,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2020-10-05\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"lunch\"\n}"
 				},
 				"url": {
 					"raw": "https://restful-booker.herokuapp.com/booking",
@@ -121,15 +121,21 @@
 					},
 					{
 						"key": "Cookie",
-						"value": "token=abc123"
+						"value": "token=a1b49e67e604e9f"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+					"raw": "{\n    \"firstname\": \"Joe\",\n    \"lastname\": \"Vera\",\n    \"totalprice\": 111,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2019-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"\n}"
 				},
 				"url": {
-					"raw": "https://restful-booker.herokuapp.com/booking/1",
+					"raw": "https://restful-booker.herokuapp.com/booking/3155",
 					"protocol": "https",
 					"host": [
 						"restful-booker",
@@ -138,7 +144,7 @@
 					],
 					"path": [
 						"booking",
-						"1"
+						"3155"
 					]
 				}
 			},
@@ -155,11 +161,11 @@
 					},
 					{
 						"key": "Cookie",
-						"value": "token=abc123"
+						"value": "token=a1b49e67e604e9f"
 					}
 				],
 				"url": {
-					"raw": "https://restful-booker.herokuapp.com/booking/1",
+					"raw": "https://restful-booker.herokuapp.com/booking/2610",
 					"protocol": "https",
 					"host": [
 						"restful-booker",
@@ -168,7 +174,7 @@
 					],
 					"path": [
 						"booking",
-						"1"
+						"2610"
 					]
 				}
 			},
